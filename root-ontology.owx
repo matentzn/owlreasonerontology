@@ -4270,9 +4270,18 @@ Rules are usually applied until the ABox is saturated - then query answering can
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dependency-directed backtracking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resolution in general is a rule of inference leading to a refutation by iteratively applying the resolution rule in a suitable way  to tell whether a propositional formula is satisfiable or for proving that a first-order formula is unsatisfiable (wikipedia).
+
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Resultion</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Resolution</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
