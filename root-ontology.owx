@@ -142,10 +142,16 @@
         <Class IRI="#Calculus"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Completion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Description_Logic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_Construction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_01ad90ea_5e1d_4474_8364_e5363e2ebaaf"/>
@@ -445,9 +451,6 @@
         <Class IRI="#OWLClass_66ac500b_7ba9_43e5_b8c7_d336c9f23527"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_67735c79_304a_4a48_8a62_7291dae54eee"/>
     </Declaration>
     <Declaration>
@@ -461,9 +464,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_6c82c06b_0026_488e_937c_ce7f8eecdf4b"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_6d187a26_b2b5_4352_b5c9_fd2fb90f5225"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_6dcc7c84_7e4a_4daa_a889_155871070c1c"/>
@@ -682,9 +682,6 @@
         <Class IRI="#OWLClass_a9892803_657d_4437_b36d_0516fa9349de"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_ab492da8_3655_45fd_a41f_94f240786346"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_ac639f6b_6946_4ef1_9839_1fa40689983a"/>
     </Declaration>
     <Declaration>
@@ -725,9 +722,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_b469bd62_a8b5_4928_8ce7_5d2353fc652e"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_b4b3fba1_4394_42f5_b07d_2d569902a0e3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_b5032665_6a76_48eb_8e3d_2d8eb335cd23"/>
@@ -785,9 +779,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_cc947d06_3db8_4ca8_83db_3c57fd08f296"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_ce95b5e9_95d2_4983_9257_22ca79c43dc7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_cec4b354_5903_4c75_9b70_c7d9eb037b29"/>
@@ -934,9 +925,6 @@
         <Class IRI="#OWLClass_f0a79a19_bb61_4c63_a652_63055909cc5d"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_f1baf27a_f841_41f6_bb20_347c54ab5ebe"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_f25b04cd_5c7a_4c15_a171_711f34e677a1"/>
     </Declaration>
     <Declaration>
@@ -979,16 +967,19 @@
         <Class IRI="#Prolog"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Proof_Derivation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Query_Rewriting"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SHOIN"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SROIQ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Temp"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reasoner_protege"/>
@@ -1321,11 +1312,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD"/>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD"/>
-        <Class IRI="#OWLClass_b4b3fba1_4394_42f5_b07d_2d569902a0e3"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Z92EkdI322jX8Ivu5Vqcc"/>
@@ -1369,7 +1356,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RBtN8WSdw8eCs76OIqWVqpr"/>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
+        <Class IRI="http://webprotege.stanford.edu/RCYLjx2om8XTfhJ8HLISA3v"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCHz21NAK7u8OeLhcEcYYbZ"/>
@@ -1385,7 +1372,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCYLjx2om8XTfhJ8HLISA3v"/>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
+        <Class IRI="#Model_Construction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RDLs9VKWiiubZcwb2LgcrnG"/>
@@ -1409,11 +1396,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
-        <Class IRI="#OWLClass_b4b3fba1_4394_42f5_b07d_2d569902a0e3"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RRWagHVIZayYchK6WrPtBB"/>
@@ -1474,12 +1457,20 @@
         <Class IRI="http://webprotege.stanford.edu/R8sH8ek9P748YA63frT2Dh8"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Completion"/>
+        <Class IRI="#Proof_Derivation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Description_Logic"/>
         <Class IRI="#OWLClass_f08bae17_9f42_44c4_a42d_2a1029049bc7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EL"/>
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model_Construction"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_01ad90ea_5e1d_4474_8364_e5363e2ebaaf"/>
@@ -1566,7 +1557,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0f7ea309_afde_4e63_a174_eba1ea1370dd"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="#Completion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1136d0cb_611c_4955_a77e_f139204a484b"/>
@@ -1862,7 +1853,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_63423915_0a29_4506_8966_ce56258694aa"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="#Proof_Derivation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_66947397_7a76_4383_817a_784b34371f57"/>
@@ -1871,10 +1862,6 @@
     <SubClassOf>
         <Class IRI="#OWLClass_66ac500b_7ba9_43e5_b8c7_d336c9f23527"/>
         <Class IRI="#OWLClass_70b54f41_7c20_49ac_a751_01f2d01ce401"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a"/>
-        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_67735c79_304a_4a48_8a62_7291dae54eee"/>
@@ -1895,10 +1882,6 @@
     <SubClassOf>
         <Class IRI="#OWLClass_6c82c06b_0026_488e_937c_ce7f8eecdf4b"/>
         <Class IRI="#OWLClass_b469bd62_a8b5_4928_8ce7_5d2353fc652e"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_6d187a26_b2b5_4352_b5c9_fd2fb90f5225"/>
-        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6dcc7c84_7e4a_4daa_a889_155871070c1c"/>
@@ -2189,10 +2172,6 @@
         <Class IRI="http://webprotege.stanford.edu/R9A1x3nEBsb2G5d7DUdAxZm"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_ab492da8_3655_45fd_a41f_94f240786346"/>
-        <Class IRI="#Calculus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_aca09a80_fac4_4f62_bfeb_9078f92ce613"/>
         <Class IRI="#OWLClass_0915b5c6_e9c9_41f9_954d_07c2c4f23676"/>
     </SubClassOf>
@@ -2241,10 +2220,6 @@
         <Class IRI="#OWLClass_a7d311bb_319e_46e8_a30d_fc79a1561f15"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_b4b3fba1_4394_42f5_b07d_2d569902a0e3"/>
-        <Class IRI="#Calculus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_b5032665_6a76_48eb_8e3d_2d8eb335cd23"/>
         <Class IRI="#OWLClass_092b1fa4_5647_44db_ab87_2a69c999d4b8"/>
     </SubClassOf>
@@ -2262,7 +2237,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_b8e65409_dacf_4690_8728_eb335fbca588"/>
-        <Class IRI="#OWLClass_f1baf27a_f841_41f6_bb20_347c54ab5ebe"/>
+        <Class IRI="#Query_Rewriting"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_b995f03c_a5a6_40eb_94cf_208e3d8a305a"/>
@@ -2326,10 +2301,6 @@
     <SubClassOf>
         <Class IRI="#OWLClass_cc947d06_3db8_4ca8_83db_3c57fd08f296"/>
         <Class IRI="#OWLClass_5c317c76_bad1_4ac0_8aa1_4b983af7f97d"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_ce95b5e9_95d2_4983_9257_22ca79c43dc7"/>
-        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_cec4b354_5903_4c75_9b70_c7d9eb037b29"/>
@@ -2520,10 +2491,6 @@
         <Class IRI="#OWLClass_35024ffe_e6a8_4c4d_8de6_7844050e1865"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_f1baf27a_f841_41f6_bb20_347c54ab5ebe"/>
-        <Class IRI="#Calculus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_f25b04cd_5c7a_4c15_a171_711f34e677a1"/>
         <Class IRI="http://webprotege.stanford.edu/RDtZEV7I4ycWManLGUyC2dx"/>
     </SubClassOf>
@@ -2576,8 +2543,16 @@
         <Class IRI="http://webprotege.stanford.edu/R8sH8ek9P748YA63frT2Dh8"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Proof_Derivation"/>
+        <Class IRI="#Calculus"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Python"/>
         <Class IRI="http://webprotege.stanford.edu/R8sH8ek9P748YA63frT2Dh8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Query_Rewriting"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SHOIN"/>
@@ -3020,6 +2995,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Interface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBtN8WSdw8eCs76OIqWVqpr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Hyper Tableaux uses complex hyper resolution stle expansion rules that help to reduce non determinism and generally have a better blocking techniue than standard tableau algorithms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RBtN8WSdw8eCs76OIqWVqpr</IRI>
         <Literal datatypeIRI="&xsd;string">Hyper-tableau</Literal>
@@ -3038,6 +3018,12 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RCViE4iRPVgGaU6d1UveSKD</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCYLjx2om8XTfhJ8HLISA3v</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tableaux procedures transform entailments into satisfibailty where we start with facts and use expansion rules to derive new facts, until no more facts can be derived (blocking)
+</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3083,6 +3069,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RdvtjZ3ZCfr4aqhEa3uyYO</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Reasoner Implementation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Completion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Transform TBox axioms into simplified form that use completion rules to derive new TBox axioms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3188,6 +3179,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0f42e1c3_b69b_4d27_9474_056cc14e5ccf</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0f7ea309_afde_4e63_a174_eba1ea1370dd</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A strcutural algorithm usually relies on a TBox to be in normal form, from which the systantic structure of axioms is compared for inferences.  No models or semantics is necessary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3580,6 +3576,15 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Reflexivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_63423915_0a29_4506_8966_ce56258694aa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Appantly the focus of rule based is on query answering! but not limited to!
+
+The algorithm usually uses rules that operate on a TBox and Abox, that materialise facts. 
+
+Rules are usually applied until the ABox is saturated - then query answering can be done on an abox level :D, very useful for DBs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_63423915_0a29_4506_8966_ce56258694aa</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rule-based</Literal>
@@ -3593,11 +3598,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_66ac500b_7ba9_43e5_b8c7_d336c9f23527</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">xsd:time</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_66e73a66_c125_4e83_bd3b_319055ae390a</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Satisfiability related Calculus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3623,11 +3623,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_6c82c06b_0026_488e_937c_ce7f8eecdf4b</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Axiom Language Feature</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_6d187a26_b2b5_4352_b5c9_fd2fb90f5225</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Query related calculus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3996,11 +3991,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_ab492da8_3655_45fd_a41f_94f240786346</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rule-based</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ac639f6b_6946_4ef1_9839_1fa40689983a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Language Extension</Literal>
     </AnnotationAssertion>
@@ -4068,11 +4058,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b469bd62_a8b5_4928_8ce7_5d2353fc652e</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Language Feature</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_b4b3fba1_4394_42f5_b07d_2d569902a0e3</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hierarchy related calculus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4168,11 +4153,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_cc947d06_3db8_4ca8_83db_3c57fd08f296</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dynamic Load Balance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_ce95b5e9_95d2_4983_9257_22ca79c43dc7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Completion-based</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4416,11 +4396,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_f1baf27a_f841_41f6_bb20_347c54ab5ebe</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rewriting</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f25b04cd_5c7a_4c15_a171_711f34e677a1</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">owl:real</Literal>
     </AnnotationAssertion>
@@ -4598,6 +4573,13 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_fb8eef0b_6c65_4a97_b404_1eb7795e1ff2</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">supported datatype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Query_Rewriting</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The main focus here is on query answering, tpyically produces a datalog program (can be used for conjunctive queries).
+
+The main idea is to expand a TBox query based on the axioms inside the TBox, so we no longer need the TBox to fulfill the query</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
