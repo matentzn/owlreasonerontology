@@ -39,11 +39,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="&xsd;string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</Literal>
+        <Literal datatypeIRI="&xsd;string">An ontology about description logic reasoning systems.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="&xsd;string">An ontology about description logic reasoning systems.</Literal>
+        <Literal datatypeIRI="&xsd;string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://webprotege.stanford.edu/R74zhqjLqYqTO9owW6BAphJ"/>
@@ -986,6 +986,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SROIQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temp"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reasoner_protege"/>
