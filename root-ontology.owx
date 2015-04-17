@@ -39,11 +39,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="&xsd;string">An ontology about description logic reasoning systems.</Literal>
+        <Literal datatypeIRI="&xsd;string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="&xsd;string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</Literal>
+        <Literal datatypeIRI="&xsd;string">An ontology about description logic reasoning systems.</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://webprotege.stanford.edu/R74zhqjLqYqTO9owW6BAphJ"/>
@@ -134,6 +134,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ALC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Automata-based"/>
     </Declaration>
     <Declaration>
         <Class IRI="#C"/>
@@ -1312,7 +1315,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Z92EkdI322jX8Ivu5Vqcc"/>
@@ -1396,7 +1399,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="#Completion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RRWagHVIZayYchK6WrPtBB"/>
@@ -1451,6 +1454,10 @@
     <SubClassOf>
         <Class IRI="#ALC"/>
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Automata-based"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#C"/>
@@ -2920,6 +2927,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Entailment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Not sure about this one: Saturation based reasoning relies on adding all possible inferred axioms to a KB, such that for any entailments that are inferred from any subset of the KB are in the saturated KB....</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Saturation-based</Literal>
@@ -3056,6 +3068,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Datatype in OWL 2 Datatype Map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Consequence based reasoning only derives consequences from a TBox, and never checks subsumptions that are not entailed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Consequence-based</Literal>
@@ -3069,6 +3086,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RdvtjZ3ZCfr4aqhEa3uyYO</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Reasoner Implementation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Automata-based</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Automata  reasoning is based on trasnlating a TBox into some vairant of automata on infinite trees that accepts tree shaped models of the TBox and then checking the automata for non emptiness. </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
