@@ -11,10 +11,10 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://webprotege.stanford.edu/project/8fr5J2CXGlliLb5Fzl1QMj"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://webprotege.stanford.edu/project/8fr5J2CXGlliLb5Fzl1QMj">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -22,20 +22,8 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal datatypeIRI="&xsd;string">system</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <Literal datatypeIRI="&xsd;dateTime">Apr 24, 2014 3:27:52 AM</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty IRI="http://protege.stanford.edu/webprotege/revision"/>
         <Literal datatypeIRI="&xsd;integer">67</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal datatypeIRI="&xsd;string">matentzn</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -44,6 +32,18 @@
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal datatypeIRI="&xsd;string">An ontology about description logic reasoning systems.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <Literal datatypeIRI="&xsd;dateTime">Apr 24, 2014 3:27:52 AM</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal datatypeIRI="&xsd;string">system</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal datatypeIRI="&xsd;string">matentzn</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://webprotege.stanford.edu/R74zhqjLqYqTO9owW6BAphJ"/>
@@ -136,6 +136,9 @@
         <Class IRI="#ALC"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ALCHOI"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Automata-based"/>
     </Declaration>
     <Declaration>
@@ -154,7 +157,13 @@
         <Class IRI="#EL"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Horn_SHIQ"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Model_Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nominal_Schema"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_01ad90ea_5e1d_4474_8364_e5363e2ebaaf"/>
@@ -407,6 +416,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_5141c573_a056_41c3_892f_8df0f1dccde9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5205580b_e65f_4152_8626_68dd3b19822f"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_5448c818_03c8_4c8b_92fc_73ae75ad7a58"/>
@@ -970,22 +982,37 @@
         <Class IRI="#Prolog"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Proof_Derivation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Python"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Query_Rewriting"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SHIF"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SHOIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SHOQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SRIQ"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SROIQ"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SROIQV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#reasoner_protege"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EL+"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R90VRJ0YyVhY8tyx3GhhCqF"/>
@@ -1078,12 +1105,30 @@
         <AnnotationProperty IRI="#OWLAnnotationProperty_03126c63_bfb4_4a45_9b61_facd314c1a14"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD"/>
+        <Class IRI="#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#ALC"/>
         <ObjectUnionOf>
             <Class IRI="#OWLClass_bbdea6a3_752a_422b_bba1_4d6dbdeafff2"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
                 <Class IRI="#OWLClass_9acbc3a6_4481_40e4_a3e0_1018cc746771"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ALCHOI"/>
+        <ObjectUnionOf>
+            <Class IRI="#ALC"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWLClass_0f0c88e9_610c_4d56_b2c1_e9fb8c1da71d"/>
+                    <Class IRI="#OWLClass_92a57552_44b7_4cc0_904e_d27bd6c26262"/>
+                    <Class IRI="#OWLClass_98974894_0966_4e7b_9a50_5185e7cbddea"/>
+                </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectUnionOf>
     </EquivalentClasses>
@@ -1100,6 +1145,10 @@
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nominal_Schema"/>
+        <Class IRI="#V"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClass_04be15b0_cfbf_4f46_8833_ef4a3e52495e"/>
@@ -1125,10 +1174,10 @@
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
                 <ObjectUnionOf>
-                    <Class IRI="#OWLClass_38ef67fb_f0db_46ad_9575_e7d03a17b0d3"/>
                     <Class IRI="#OWLClass_416209a5_b920_439f_a7b0_90c1469cec4f"/>
+                    <Class IRI="#OWLClass_958e2bb8_0c72_42e4_8dc9_2af78cec8ebf"/>
                     <Class IRI="#OWLClass_9dafc5ff_19f6_497a_89df_69a430893340"/>
-                    <Class IRI="#OWLClass_d8ccea63_4315_48d7_8a41_bac3aa0beb49"/>
+                    <Class IRI="#OWLClass_e753f86e_c903_42ef_aabd_47957648cb3f"/>
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -1264,6 +1313,20 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#SHIF"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWLClass_0f0c88e9_610c_4d56_b2c1_e9fb8c1da71d"/>
+                    <Class IRI="#OWLClass_91b90a8a_aac8_427a_82d1_eacf0f47e2c8"/>
+                    <Class IRI="#OWLClass_98974894_0966_4e7b_9a50_5185e7cbddea"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#SHOIN"/>
         <ObjectUnionOf>
             <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
@@ -1279,6 +1342,34 @@
         </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#SHOQ"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWLClass_4454dfa2_d045_406b_9909_c8505d6a29a1"/>
+                    <Class IRI="#OWLClass_92a57552_44b7_4cc0_904e_d27bd6c26262"/>
+                    <Class IRI="#OWLClass_98974894_0966_4e7b_9a50_5185e7cbddea"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SRIQ"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWLClass_04be15b0_cfbf_4f46_8833_ef4a3e52495e"/>
+                    <Class IRI="#OWLClass_0f0c88e9_610c_4d56_b2c1_e9fb8c1da71d"/>
+                    <Class IRI="#OWLClass_4454dfa2_d045_406b_9909_c8505d6a29a1"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#SROIQ"/>
         <ObjectUnionOf>
             <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
@@ -1289,6 +1380,22 @@
                     <Class IRI="#OWLClass_0f0c88e9_610c_4d56_b2c1_e9fb8c1da71d"/>
                     <Class IRI="#OWLClass_4454dfa2_d045_406b_9909_c8505d6a29a1"/>
                     <Class IRI="#OWLClass_92a57552_44b7_4cc0_904e_d27bd6c26262"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SROIQV"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_1f8d925e_e75c_4157_8659_958e9a386a8e"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_c332cb44_5186_44ff_a4c3_5dea63cc4ee5"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWLClass_04be15b0_cfbf_4f46_8833_ef4a3e52495e"/>
+                    <Class IRI="#OWLClass_0f0c88e9_610c_4d56_b2c1_e9fb8c1da71d"/>
+                    <Class IRI="#OWLClass_4454dfa2_d045_406b_9909_c8505d6a29a1"/>
+                    <Class IRI="#OWLClass_92a57552_44b7_4cc0_904e_d27bd6c26262"/>
+                    <Class IRI="#V"/>
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectUnionOf>
@@ -1315,7 +1422,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Qb1ZlGJpzS1pieMLNblfD"/>
-        <Class IRI="#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7"/>
+        <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R8Z92EkdI322jX8Ivu5Vqcc"/>
@@ -1359,7 +1466,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RBtN8WSdw8eCs76OIqWVqpr"/>
-        <Class IRI="http://webprotege.stanford.edu/RCYLjx2om8XTfhJ8HLISA3v"/>
+        <Class IRI="#Model_Construction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCHz21NAK7u8OeLhcEcYYbZ"/>
@@ -1399,7 +1506,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
-        <Class IRI="#Completion"/>
+        <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RRWagHVIZayYchK6WrPtBB"/>
@@ -1456,8 +1563,12 @@
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ALCHOI"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Automata-based"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="#Model_Construction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#C"/>
@@ -1465,7 +1576,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Completion"/>
-        <Class IRI="#Proof_Derivation"/>
+        <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Description_Logic"/>
@@ -1476,8 +1587,16 @@
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Horn_SHIQ"/>
+        <Class IRI="#OWLClass_f2826d21_34a6_4e46_a123_66cac331f2ef"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Model_Construction"/>
         <Class IRI="#Calculus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nominal_Schema"/>
+        <Class IRI="#OWLClass_d3fc02ef_6877_405f_997d_8931d43e3586"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_01ad90ea_5e1d_4474_8364_e5363e2ebaaf"/>
@@ -1564,7 +1683,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0f7ea309_afde_4e63_a174_eba1ea1370dd"/>
-        <Class IRI="#Completion"/>
+        <Class IRI="#Query_Rewriting"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1136d0cb_611c_4955_a77e_f139204a484b"/>
@@ -1680,7 +1799,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_30141203_da81_4a5d_a555_736903e9b9cc"/>
-        <Class IRI="#OWLClass_f08bae17_9f42_44c4_a42d_2a1029049bc7"/>
+        <Class IRI="#OWLClass_73ff3f68_a4d3_4382_bf7c_0f793833e17a"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_30d9025b_5fa4_4e55_b22f_6494271c5fca"/>
@@ -1811,6 +1930,10 @@
         <Class IRI="http://webprotege.stanford.edu/R9A1x3nEBsb2G5d7DUdAxZm"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_5205580b_e65f_4152_8626_68dd3b19822f"/>
+        <Class IRI="#Query_Rewriting"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_5448c818_03c8_4c8b_92fc_73ae75ad7a58"/>
         <Class IRI="#OWLClass_70b54f41_7c20_49ac_a751_01f2d01ce401"/>
     </SubClassOf>
@@ -1860,7 +1983,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_63423915_0a29_4506_8966_ce56258694aa"/>
-        <Class IRI="#Proof_Derivation"/>
+        <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_66947397_7a76_4383_817a_784b34371f57"/>
@@ -2072,7 +2195,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_91b90a8a_aac8_427a_82d1_eacf0f47e2c8"/>
-        <Class IRI="#OWLClass_3bde14b4_d6c5_4220_8913_d4388c36472d"/>
+        <Class IRI="#OWLClass_2352c218_05e1_4727_ba8e_2b66d689d50a"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_921d61a4_1fca_4b31_a77c_26706760582f"/>
@@ -2104,7 +2227,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_98974894_0966_4e7b_9a50_5185e7cbddea"/>
-        <Class IRI="#OWLClass_3bde14b4_d6c5_4220_8913_d4388c36472d"/>
+        <Class IRI="#OWLClass_04be15b0_cfbf_4f46_8833_ef4a3e52495e"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_99f3b4e0_fa77_42df_925b_87312d778a7f"/>
@@ -2403,7 +2526,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e05194f2_ca7a_48a4_a8cb_835ca73e3ff7"/>
-        <Class IRI="#Calculus"/>
+        <Class IRI="http://webprotege.stanford.edu/RIpNc6my5IxDadcn9eyUyl"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e1b19548_62a3_4b52_b446_f60ddc65e432"/>
@@ -2550,10 +2673,6 @@
         <Class IRI="http://webprotege.stanford.edu/R8sH8ek9P748YA63frT2Dh8"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Proof_Derivation"/>
-        <Class IRI="#Calculus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Python"/>
         <Class IRI="http://webprotege.stanford.edu/R8sH8ek9P748YA63frT2Dh8"/>
     </SubClassOf>
@@ -2562,7 +2681,19 @@
         <Class IRI="#Calculus"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SHIF"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SHOIN"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SHOQ"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SRIQ"/>
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
     </SubClassOf>
     <SubClassOf>
@@ -2570,8 +2701,24 @@
         <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SROIQV"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V"/>
+        <Class IRI="#OWLClass_3bde14b4_d6c5_4220_8913_d4388c36472d"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#reasoner_protege"/>
         <Class IRI="http://webprotege.stanford.edu/RBsFc2Teaj9jO07BNZyz1FV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EL+"/>
+        <Class IRI="#OWLClass_e6862920_be26_40c3_a9ba_acd3ef5a462f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EL+"/>
+        <Class IRI="#OWLClass_f2826d21_34a6_4e46_a123_66cac331f2ef"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#OWLClass_03860388_cc62_4705_a6d6_d9b8261c77dc"/>
@@ -2759,12 +2906,12 @@
         <ObjectProperty IRI="#OWLObjectProperty_f97d041c_1d5e_4b44_abc4_fd66af19c1ca"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_9b8b3c99_0ab0_41f2_9ff9_2f906fa9eab5"/>
         <ObjectProperty IRI="#OWLObjectProperty_29aedc29_255a_4e51_8b58_3ca523760d62"/>
+        <ObjectProperty IRI="#OWLObjectProperty_9b8b3c99_0ab0_41f2_9ff9_2f906fa9eab5"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_e50e4dc5_ac1b_4dea_a690_c80df74c4f5c"/>
         <ObjectProperty IRI="#OWLObjectProperty_29f9604b_c3f0_46dd_a17f_1138c3c6025c"/>
+        <ObjectProperty IRI="#OWLObjectProperty_e50e4dc5_ac1b_4dea_a690_c80df74c4f5c"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R90VRJ0YyVhY8tyx3GhhCqF"/>
@@ -3098,6 +3245,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Transform TBox axioms into simplified form that use completion rules to derive new TBox axioms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Completion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Description_Logic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Description Logic Language</Literal>
@@ -3200,7 +3352,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0f42e1c3_b69b_4d27_9474_056cc14e5ccf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FL</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FL0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3355,7 +3507,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_30141203_da81_4a5d_a555_736903e9b9cc</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Datalog</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DL Datalog</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3539,6 +3691,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5205580b_e65f_4152_8626_68dd3b19822f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Query Rewriting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5448c818_03c8_4c8b_92fc_73ae75ad7a58</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">xsd:gMonthDay</Literal>
     </AnnotationAssertion>
@@ -3605,6 +3762,11 @@
 The algorithm usually uses rules that operate on a TBox and Abox, that materialise facts. 
 
 Rules are usually applied until the ABox is saturated - then query answering can be done on an abox level :D, very useful for DBs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_63423915_0a29_4506_8966_ce56258694aa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Forward chaining</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4614,6 +4776,11 @@ The main idea is to expand a TBox query based on the axioms inside the TBox, so 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Query_Rewriting</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Rewriting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#completeFor</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">is complete for</Literal>
     </AnnotationAssertion>
@@ -4640,5 +4807,5 @@ The main idea is to expand a TBox query based on the axioms inside the TBox, so 
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
